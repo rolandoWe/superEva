@@ -107,7 +107,7 @@
   <div class="carousel-cell size-large">
 
   <div class="card" style="width: 18rem;">
-  <img src="imagenes/ofertas/aceiteCañuelas.png" class="card-img-top" alt="...">
+  <img src="imagenes/ofertas/AceiteCañuelas.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Aceite Girasol Cañuelas 1.5 Lts.</h5>
     <p class="card-text">antes <del>$ 2500</del> &nbsp; <strong>Ahora: $ 1800</strong></p>
