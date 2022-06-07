@@ -21,7 +21,7 @@
 
   <div class="alert text-center" role="aler">
    <!-- <p>Super Eva</p> -->
-   SuperMercado Yilán
+   SuperMercado Eva
 </div>
 
 <nav class="navbar navbar-expand-lg">
