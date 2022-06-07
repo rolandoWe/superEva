@@ -20,9 +20,9 @@
 .navbar-toggler i{
     color: black;
     font-size: 30px;
-    border:solid 1px rgb(0, 0, 0);
+    /* border:solid 1px rgb(0, 0, 0); */
     border-radius: 5px;
-    padding: 2px 10px;
+    /* padding: 2px 10px; */
 }
 .navbar{
     position: sticky;
@@ -33,12 +33,12 @@
 .nav-item a{
     background-color: rgb(219, 142, 48);
     margin-left: 5px;
-    color:rgb(0, 0, 0,.7);
+    color:rgb(0, 0, 0,.9);
     font-size: 24px;
     padding: 0 2px;
     border-radius: 5px;
-    text-shadow: 1px 1px 2px white;
-    font-weight: bold;
+    /* text-shadow: 1px 1px 2px white; */
+    /* font-weight: bold; */
 }
 .nav-item a:hover{
     color: rgb(0, 0, 0);
@@ -195,7 +195,11 @@ footer{
         margin-top: 10px;
     }
     .mas_categ{
-        width:90%
+        width:100%;
+    }
+    .mas_categ img{
+        height:340px
+
     }
     footer{
         padding-left: 2px;
