@@ -12,6 +12,11 @@
 
     <!-- FLICKITY CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
     <title>Super Eva</title>
     <link rel="stylesheet" href="css/index.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
@@ -19,9 +24,10 @@
 <body>
   <div class="contenedor">
 
-  <div class="alert text-center" role="aler">
+  <div class="alert" role="aler">
    <!-- <p>Super Eva</p> -->
-   SuperMercado Eva
+   SUPER EVA <span><i class="fa-solid fa-phone"></i> 2270-0000</span>
+   <span><i class="fa-brands fa-whatsapp"></i> 7287-0000</span>
 </div>
 
 <nav class="navbar navbar-expand-lg">
@@ -32,13 +38,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#nuevo">Lo Nuevo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#ofertas">Ofertas</a>
-        </li>
-
+          
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Departamentos
@@ -53,6 +53,13 @@
             <li><a class="dropdown-item" href="#">Calzado</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#nuevo">Lo Nuevo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ofertas">Ofertas</a>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#contacto">Contacto</a>
         </li>

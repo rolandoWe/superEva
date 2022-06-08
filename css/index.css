@@ -6,13 +6,21 @@
 }
 .alert{
     background-color: rgb(255, 150, 50);
-    font-size: 40px;
+    /* font-family: 'Blaka Hollow', cursive; */
+    /* font-family: 'Secular One', sans-serif; */
+    font-family: 'Tapestry', cursive;
+    font-size: 28px;
     font-weight: bold;
-    color: rgb(16, 16, 16,.8);
-    padding: 5px 0;
+    text-align: left;
+    color: rgb(16, 16, 16,.7);
+    padding:0 15px;
     margin-bottom: 0;
     border: none;
     border-radius: 0px;
+}
+.alert span{
+    margin-left: 50px;
+    font-weight: lighter;
 }
 .navbar-brand{
     color: rgb(0, 0, 0);
@@ -121,8 +129,8 @@
     margin-top:100px
 }
 .nuevo,.ofertas,.categorias{
-    background-color: rgb(255, 150, 50,.5);
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 150, 50);
+    color: rgb(0, 0, 0,.7);
 }
 
 /* MAS CATEGORIAS */
@@ -187,6 +195,19 @@ footer{
 
 
 @media (max-width:576px){
+    .dropdown-menu{
+        background-color: rgb(255, 150, 50);
+    }
+    .alert{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alert span{
+        /* display: inline-block;
+        background-color: aliceblue;
+        width: 20%; */
+        font-size: 20px;
+    }
     .carousel-item{
         height: 230px;
     }
@@ -200,7 +221,7 @@ footer{
         width:100%;
     }
     .mas_categ img{
-        height:340px
+        height:300px
 
     }
     footer{
