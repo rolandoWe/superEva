@@ -17,8 +17,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+
+<!-- <script src="js/jquery.js"></script> -->
+
     <title>Super Eva</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/limpieza.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
 </head>
 <body>
@@ -32,7 +36,7 @@
 
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+    <a class="navbar-brand" href="index.php"><i class="fa-solid fa-house"></i></a>
     <button class="navbar-toggler text-light bg-primar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
     </button>
@@ -44,7 +48,7 @@
             Departamentos
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Limpieza</a></li>
+            <li><a class="dropdown-item" href="limpieza.php">Limpieza</a></li>
             <li><a class="dropdown-item" href="#">Fiesta</a></li>
             <li><a class="dropdown-item" href="#">Cuidado personal</a></li>
             <li><a class="dropdown-item" href="#">Cristaleria</a></li>
@@ -52,6 +56,9 @@
             <li><a class="dropdown-item" href="#">Art. Escolar</a></li>
             <li><a class="dropdown-item" href="#">Calzado</a></li>
           </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Categorias</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#nuevo">Lo Nuevo</a>

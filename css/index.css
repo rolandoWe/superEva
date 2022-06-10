@@ -54,6 +54,9 @@
     color: rgb(0, 0, 0);
     background-color: rgb(194, 113, 42);
 }
+.dropdown-menu{
+    background-color: transparent;
+}
 .contenedor{
     /* border:solid red 2px; */
     margin: auto !important;
