@@ -66,7 +66,7 @@
     margin-left: 40%;
 }
 .activar{
-    background-color: rgb(154, 199, 154) !important;
+    background-color: orange !important;
 }
 
 @media (max-width:576px){
