@@ -1,0 +1,14 @@
+
+
+.contenedor_fiesta{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    justify-content: space-around;
+}
+.contenedor_fiesta h2,.contenedor_limpieza h2{
+    width:100%;
+    text-align: center;
+    background-color: rgb(255,240,165);
+}

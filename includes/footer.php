@@ -35,5 +35,6 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/limpieza.js"></script>
+<script src="js/fiesta.js"></script>
 </body>
 </html>

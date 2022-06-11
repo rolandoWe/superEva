@@ -1,17 +1,20 @@
 
-<div class="container-fluid">
+<!-- <div class="container-fluid"> -->
     <?php include('includes/header.php')?>
 
     <div class="contenedor_limpieza">
+        <!-- <div class="slid"> -->
         <h2>Limpieza.</h2>
+        <!-- </div> -->
         <div class="cont_list">
-          <a href="#" class="btn btn-warning select_cat" category="todo">Todo</a>
+            <h3>Elegir categoria.</h3>
+          <a href="#" class="btn btn-warning form-contro select_cat" category="todo">Todo</a>
           <a href="#" class="btn btn-warning select_cat" category="cloro">Cloro</a>
           <a href="#" class="btn btn-warning select_cat" category="detergente">Detergente</a>
           <a href="#" class="btn btn-warning select_cat" category="desinfectante">Desinfectantes</a>
           <a href="#" class="btn btn-warning select_cat" category="lavaplato">Lavaplato</a>
           <a href="#" class="btn btn-warning select_cat" category="desengrasante">Desengrasante</a>
-          <a href="#" class="btn btn-warning select_cat" category="hogar">Hogar en general</a>
+          <a href="#" class="btn btn-warning select_cat" category="hogar">Otros</a>
         </div>
 
         <div class="cont_product">
@@ -20,7 +23,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
            
            <div class="producto" category="detergente">
@@ -28,7 +31,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="cloro">
@@ -36,7 +39,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -44,7 +47,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="cloro">
@@ -52,7 +55,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -60,7 +63,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desengrasante">
@@ -68,7 +71,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desinfectante">
@@ -76,7 +79,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desinfectante">
@@ -84,7 +87,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desinfectante">
@@ -92,7 +95,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desinfectante">
@@ -100,7 +103,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="detergente">
@@ -108,7 +111,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="detergente">
@@ -116,7 +119,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="detergente">
@@ -124,7 +127,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -132,7 +135,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -140,7 +143,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -148,7 +151,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desinfectante">
@@ -156,7 +159,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="lavaplato">
@@ -164,7 +167,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="lavaplato">
@@ -172,7 +175,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="lavaplato">
@@ -180,7 +183,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desengrasante">
@@ -188,7 +191,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -196,7 +199,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -204,7 +207,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -212,7 +215,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -220,7 +223,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -228,7 +231,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="hogar">
@@ -236,7 +239,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="desengrasante">
@@ -244,7 +247,7 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
            <div class="producto" category="cloro">
@@ -252,11 +255,11 @@
                <p>Lorem ipsum dolor sit amet.</p>
                <p>precio: <strong>$ 1200</strong></p>
                <!-- <a href="">Limpieza</a> -->
-               <a href="#" class="btn btn-primary form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
+               <a href="#" class="btn btn-warning form-control">add <i class="fa-solid fa-cart-shopping"></i></a>
            </div>
 
         </div>
     </div>
 
     <?php include('includes/footer.php')?>
-</div>
+<!-- </div> -->

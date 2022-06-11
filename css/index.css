@@ -4,15 +4,20 @@
     margin:0;
     padding: 0;
 }
+/* body{
+    background-color: rgb(240, 240, 240);
+
+} */
 .alert{
-    background-color: rgb(255, 150, 50);
+    background-color: rgb(255, 240, 165);
     /* font-family: 'Blaka Hollow', cursive; */
     /* font-family: 'Secular One', sans-serif; */
     font-family: 'Tapestry', cursive;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
     text-align: left;
-    color: rgb(16, 16, 16,.7);
+    color: rgb(255, 240, 164);
+    text-shadow: 0 0 3px black;
     padding:0 15px;
     margin-bottom: 0;
     border: none;
@@ -38,27 +43,33 @@
     position: sticky;
     top:0;
     z-index: 100;
-    background-color: rgb(255, 150, 50);
+    background-color: rgb(255, 240, 165);
 }
 .nav-item a{
-    background-color: rgb(219, 142, 48);
+    background-color: rgb(255, 240, 165);
     margin-left: 5px;
     color:rgb(0, 0, 0,.9);
     font-size: 24px;
     padding: 0 2px;
     border-radius: 5px;
+    border:solid transparent 1px;
+    transition: .5s;
+
     /* text-shadow: 1px 1px 2px white; */
     /* font-weight: bold; */
 }
 .nav-item a:hover{
     color: rgb(0, 0, 0);
-    background-color: rgb(194, 113, 42);
+    /* background-color: rgb(194, 113, 42); */
+    border:solid rgb(0, 0, 0,.2) 1px
 }
 .dropdown-menu{
     background-color: transparent;
 }
 .contenedor{
     /* border:solid red 2px; */
+    box-shadow: 0 0 5px rgb(255, 245, 164);
+    background-color: rgb(243, 243, 243);
     margin: auto !important;
     width:100%;
     max-width: 1200px;
@@ -82,11 +93,11 @@
     left: 0;
     right: 0;
     bottom:0;
-    background-color: rgb(255, 150, 50,.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .carousel-caption{
     z-index: 2;
-    background-color: rgb(255, 150, 50,.5);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
    /* width: 100%; */
 }
@@ -106,7 +117,7 @@
 }
 .card{
     margin: 10px;
-    border: solid rgb(255, 150, 50,.5) 1px;
+    border: solid rgb(255, 240, 165,.5) 1px;
 }
 .card img{
     height: 290px;
@@ -132,8 +143,8 @@
     margin-top:100px
 }
 .nuevo,.ofertas,.categorias{
-    background-color: rgb(255, 150, 50);
-    color: rgb(0, 0, 0,.7);
+    background-color: rgb(255, 240, 165);
+    color: rgb(0, 0, 0,.6);
 }
 
 /* MAS CATEGORIAS */
@@ -159,7 +170,7 @@
 }
 
 footer{
-    background-color: rgb(255, 150, 50,.5);
+    background-color: rgb(255, 240, 165);
     padding: 30px 0 30px 30px;
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +210,8 @@ footer{
 
 @media (max-width:576px){
     .dropdown-menu{
-        background-color: rgb(255, 150, 50);
+        background-color: rgb(255, 240, 164);
+        z-index: 110 !important;
     }
     .alert{
         display: flex;

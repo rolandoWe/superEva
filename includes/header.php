@@ -23,6 +23,7 @@
     <title>Super Eva</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/limpieza.css">
+    <link rel="stylesheet" href="css/fiesta.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
 </head>
 <body>
@@ -49,17 +50,17 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="limpieza.php">Limpieza</a></li>
-            <li><a class="dropdown-item" href="#">Fiesta</a></li>
+            <li><a class="dropdown-item" href="fiesta.php">Fiesta</a></li>
             <li><a class="dropdown-item" href="#">Cuidado personal</a></li>
-            <li><a class="dropdown-item" href="#">Cristaleria</a></li>
+            <li><a class="dropdown-item" href="#">Hogar</a></li>
             <li><a class="dropdown-item" href="#">Jugueteria</a></li>
             <li><a class="dropdown-item" href="#">Art. Escolar</a></li>
             <li><a class="dropdown-item" href="#">Calzado</a></li>
           </ul>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Categorias</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#nuevo">Lo Nuevo</a>
         </li>
