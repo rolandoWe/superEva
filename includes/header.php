@@ -62,7 +62,7 @@
           <a class="nav-link active" aria-current="page" href="#">Categorias</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#nuevo">Lo Nuevo</a>
+          <a class="nav-link active" aria-current="page" href="#nuevo">Nuevo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#ofertas">Ofertas</a>
